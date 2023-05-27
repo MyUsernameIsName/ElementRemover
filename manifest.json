@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Element remover",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "description": "Have you tired of a pop-up window? Just remove it! Hold down shortcut and press left click.",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
