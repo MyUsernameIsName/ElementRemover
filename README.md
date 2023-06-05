@@ -1,4 +1,4 @@
-# Element remover
+# Element remover(Chrome extension)
 
 Have you tired of pop-up windows? Just remove them! Hold down the shortcut and press the left mouse button.
 
